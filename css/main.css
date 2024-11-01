@@ -1,0 +1,179 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav{
+  gap: 40%;
+   
+}
+.navbar-nav .nav-link:hover{
+    border-bottom: 3px solid #B74501;
+   
+}
+
+.collapse a:hover{
+    color:#f9db1a;
+    }
+
+
+.main-logo{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    
+}
+
+.carousel-item{
+    height: 500px;
+} 
+
+.carousel-item > img{
+    height: 100% !important;
+}
+.carousel-item{
+    overflow: hidden;
+}
+
+.carousel-item > img {
+    width: 100% !important;
+    transform: translateX(-12);
+}
+
+.service-details{
+
+}
+
+.services {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+   padding-bottom: -1rem;
+   
+
+}
+
+.services_top{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    
+}
+
+.services_top article {
+    background-color: gray;
+    text-align: center;
+    padding: 1rem;
+    z-index: 0;
+    border: 0.5rem solid gray;
+   
+    
+}
+
+.services_top:hover{
+    transform: translateY(-0.5rem);
+    cursor: pointer;
+
+}
+
+/* POSITION STICK TOP */
+.sticky-to-top{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* SEARCH INPUT */
+
+#searchinput{
+    width: 50%;
+    background-color: #f8f3f3;
+    padding: 0.9%;
+    border-style: none;
+   
+}
+
+.btn
+{
+   border: none;
+   padding: 0.9%;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+.card_parents :hover{
+    background-color: #f1d6a4;
+    cursor: pointer;
+
+}
+
+.modal_details{
+    margin-left: 44%;
+    position: relative;
+    background-color: #B74501;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 3dvh;
+    transition: background-color  0.3s ease;
+}
+
+#btn_btn{
+    margin-left: 35%;
+    background-color: #6292e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color  0.3s ease;
+   
+}
+
+.form-control {
+    width: 50%;
+   
+}
+
+.foot_h{
+    cursor: pointer;
+    
+    
+}
+
+.modal-title{
+    margin-left: 45%;
+   
+}
+
+.socia_media{
+    cursor: pointer;
+}
+
+.icon_social{
+    font-size: 20px;
+    
+}
+
+.control_row{
+  margin-left: 30%;
+}
+
+.submite_button{
+    margin-top: 1rem;
+    background-color: #6292e6;
+    color: white;
+    border: none;
+    padding: 3px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   margin-left: 20%;
+}
